@@ -9,7 +9,7 @@ const Contacts = () => {
         I Want to Hear from You
       </h2>
 
-      <div className="grid grid-cols-2 gap-6 mt-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
         <div className="border p-8 rounded-xl">
           <form class="w-full max-w-lg">
             <div class="flex flex-wrap -mx-3 mb-6">
@@ -70,7 +70,7 @@ const Contacts = () => {
                 <FiMail className="text-6xl p-4 bg-secondary text-white rounded-full"></FiMail>
                 <div className="ml-5">
                     <h2 className="text-4xl font-bold">Email</h2>
-                    <p className="text-xl">mdrakibul.developer@gmail.com</p>
+                    <p className="text-md md:text-xl">mdrakibul.developer@gmail.com</p>
                 </div>
             </div>
             <div className="flex items-center my-6">

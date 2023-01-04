@@ -6,11 +6,11 @@ const About = () => {
     return (
         <div className='my-12' id='about'>
             <h2 className="text-xl text-center text-secondary">About Me</h2>
-            <h2 className="text-4xl font-semibold  text-center w-[60%] mx-auto">A Passionate Developer Who Loves to Code</h2>
-            <div className="grid grid-cols-2 gap-6 mt-12">
+            <h2 className="text-4xl font-semibold  text-center md:w-[60%] mx-auto">A Passionate Developer Who Loves to Code</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
                 <div>
                     <img src={myImg} alt=""  className='h-[400px] rounded-lg mx-auto'/>
-                    <img src={laptop} alt=""  className='h-[250px] rounded-lg mt-[-180px] ml-[-40px]'/>
+                    <img src={laptop} alt=""  className='h-[150px] lg:h-[250px] rounded-lg mt-[-90px] lg:mt-[-180px] ml-[-40px]'/>
                 </div>
                 <div>
                     <h2 className="text-3xl font-semibold">About Me</h2>

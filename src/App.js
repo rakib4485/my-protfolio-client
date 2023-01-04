@@ -18,7 +18,7 @@ function App() {
   //   }
   // ])
   return (
-    <div className='w-[70%] mx-auto'>
+    <div className='w-[85%] md:w-[70%] mx-auto'>
       {/* <RouterProvider router={router}></RouterProvider> */}
       <Navbar></Navbar>
       <Home></Home>

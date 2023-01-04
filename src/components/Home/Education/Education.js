@@ -8,9 +8,9 @@ const Education = () => {
     return (
         <div className='my-20' id='education'>
             <h2 className="text-xl text-center text-secondary">Education</h2>
-            <h2 className="text-4xl font-semibold  text-center w-[60%] mx-auto">I do Web Development alongside my Studies</h2>
+            <h2 className="text-4xl font-semibold  text-center md:w-[60%] mx-auto">I do Web Development alongside my Studies</h2>
 
-            <div className="grid grid-cols-3 gap-4 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
                 <div className='p-3 border rounded-lg'>
                     <h2 className="text-2xl">Bachelor of Science</h2>
                     <p className="text-xl">(2020 - Present)</p>
