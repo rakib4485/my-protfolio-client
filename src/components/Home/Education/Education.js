@@ -1,10 +1,7 @@
 import React from 'react';
-import { FcGraduationCap } from "react-icons/fc";
 
 const Education = () => {
-    const cap = <>
-    <FcGraduationCap></FcGraduationCap>
-    </>
+
     return (
         <div className='my-20' id='education'>
             <h2 className="text-xl text-center text-secondary">Education</h2>

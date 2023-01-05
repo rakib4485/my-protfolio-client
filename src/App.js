@@ -8,6 +8,7 @@ import Skills from './components/Home/Skills/Skills';
 import Contacts from './components/Home/Contacts/Contacts';
 import Education from './components/Home/Education/Education';
 import Footer from './components/Home/Footer/Footer';
+import Projects from './components/Home/Projects/Projects';
 
 function App() {
   // const router = createBrowserRouter([
@@ -25,6 +26,7 @@ function App() {
       <About></About>
       <Skills></Skills>
       <Education></Education>
+      <Projects></Projects>
       <Contacts></Contacts>
       <Footer></Footer>
     </div>

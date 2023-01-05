@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const menuItems = (
@@ -16,6 +15,9 @@ const Navbar = () => {
       </li>
       <li>
         <a href="#education">Education</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
       </li>
       <li>
         <a href="#contact">Contacts</a>

@@ -1,5 +1,6 @@
 import React from "react";
 import { FiMail, FiMapPin, FiPhone } from "react-icons/fi";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Contacts = () => {
   return (
@@ -79,6 +80,28 @@ const Contacts = () => {
                     <h2 className="text-4xl font-bold">Phone</h2>
                     <p className="text-xl">+8801870028843</p>
                 </div>
+            </div>
+            <div className="grid grid-cols-4 md:w-[80%]">
+              <div>
+                <a href="https://web.facebook.com/profile.php?id=100017740156035">
+                <FaFacebook className="text-6xl p-4 bg-secondary text-white rounded-full"></FaFacebook>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/mdrakib44854/">
+                <FaInstagram className="text-6xl p-4 bg-secondary text-white rounded-full"></FaInstagram>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/rakibmd4485/">
+                <FaLinkedin className="text-6xl p-4 bg-secondary text-white rounded-full"></FaLinkedin>
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/rakib4485">
+                <FaGithub className="text-6xl p-4 bg-secondary text-white rounded-full"></FaGithub>
+                </a>
+              </div>
             </div>
         </div>
       </div>
